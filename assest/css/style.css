@@ -1,9 +1,44 @@
-@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@1,200;1,400;1,600;1,700;1,900&family=Sriracha&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@300&display=swap');
 
+header {
+    min-height: 120px;
+    margin: 0 auto;
+}
+
+#nav {
+    margin: 0;
+}
+
+#nav li {
+    padding: 0;
+    font-size: 14px;
+    
+}
 
 body{
     background-image: url(../image/tictactoe.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    color: #3a3a3a;
 }
+h2{
+    margin-top: 0px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Finger Paint', cursive;
+    font-size: 55px;
+
+}
+.text-rules li{
+    font-family: 'Finger Paint', cursive;
+    text-align: justify;
+    text-align-last: center;  
+    margin: 10px;
+    list-style-type: none;
+    letter-spacing: 4px;
+    font-size: 25px;
+    
+
+}
+
