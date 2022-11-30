@@ -28,6 +28,7 @@ li, a {
     font-weight: 400;
   
   }
+  /*header*/
   
 
 header{
@@ -80,20 +81,21 @@ body{
     color: #3a3a3a;
 }
 
- /*History*/
- .history{
+ /*About-Game*/
+
+ .about{
 	width: 100%;
 	padding: 10% 0px;
     margin-top: 0%;
 	
 }
-.history img{
+.about img{
 	height: auto;
 	width: 40%;
     margin-right:5% ;
     object-fit: cover;
 }
-.history-text{
+.about-text{
 	width: 550px;
 }
 .main{
@@ -104,36 +106,22 @@ body{
 	align-items: center;
 	justify-content: space-around;
 }
-.history-text h2{
+.about-text h2{
   font-family: 'Finger Paint', cursive;
   font-size: 300%;
   font-weight: 500;
   color: #3a3a3a;
 }
 
-.history-text p{
+.about-text p{
 	
 	letter-spacing: 1px;
 	line-height: 28px;
-	
-	
-    
     font-size: 150%;
     color:#3a3a3a;
 }
 
-.text-rules li{
-    font-family: 'Finger Paint', cursive;
-    text-align: justify;
-    text-align-last: center;  
-    margin: 10px;
-    list-style-type: none;
-    letter-spacing: 4px;
-    font-size: 25px;
-    
-
-}
-
+/*box*/
 .box{
 	display: flex;
 	justify-content: center;
@@ -163,6 +151,7 @@ h5{
 	line-height: 27px;
 	margin-bottom: 25px;
 }
+/*board*/
 
 #board {
     display: grid;
@@ -176,6 +165,7 @@ h5{
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: 130px;
 }
 .tile{
     color: #3a3a3a;
@@ -241,4 +231,38 @@ h5{
     top: 50%;
     left: 5%;
     transform: skewY(-45deg);
+  }
+
+  /*game area*/
+
+  #game-over-area {
+    text-align: center;
+    border: #0000cc 8px solid;
+    border-radius: 15px;
+    padding: 50px;
+    width: 50%;
+    margin-top: 70px;
+  }
+
+  h3 {
+    color: rgba(242, 242, 242);
+    font-size: 2em;
+    margin-top: auto;
+  }
+
+button {
+    background-color: transparent;
+    color: rgba(242, 242, 242);
+    border: rgba(242, 242, 242) 1px solid;
+    border-radius: 20px;
+    padding: 10px;
+    font-size: 1.5em;
+    margin-top: 30px;
+  }
+  .hidden {
+    display: none;
+  }
+  
+  .visible {
+    display: block;
   }

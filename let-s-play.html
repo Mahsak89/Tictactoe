@@ -8,6 +8,7 @@
     <title>TIC TAC TOE</title>
 </head>
 <body>
+    <!----header start---->
     <header>
         <a class="logo" href="index.html ">
             <h1>TIC TAC TOE</h1>
@@ -24,26 +25,28 @@
             </ul>
         </nav>
     </header>
-    <main class="position">
-        
-        <div id="board">
-            <div data-index="1" class="tile right-border bottom-border">X</div>
-            <div data-index="2" class="tile right-border bottom-border">X</div>
-            <div data-index="3" class="tile bottom-border">X</div>
-            <div data-index="4" class="tile right-border bottom-border">X</div>
-            <div data-index="5" class="tile right-border bottom-border">X</div>
-            <div data-index="6" class="tile bottom-border">X</div>
-            <div data-index="7" class="tile right-border">X</div>
-            <div data-index="8" class="tile right-border">X</div>
-            <div data-index="9" class="tile">X</div>
-            <div id="strike" class=" strike strike-row-2"></div>
-    
-        </div>
-    
-    
-        </div>
-
-    </main>
+    <!----board section start---->
+    <section>
+        <main class="position">
+            <div id="board">
+                <div data-index="1" class="tile right-border bottom-border">X</div>
+                <div data-index="2" class="tile right-border bottom-border">X</div>
+                <div data-index="3" class="tile bottom-border">X</div>
+                <div data-index="4" class="tile right-border bottom-border">X</div>
+                <div data-index="5" class="tile right-border bottom-border">X</div>
+                <div data-index="6" class="tile bottom-border">X</div>
+                <div data-index="7" class="tile right-border">X</div>
+                <div data-index="8" class="tile right-border">X</div>
+                <div data-index="9" class="tile">X</div>
+                <div id="strike" class=" strike strike-row-2"></div>
+            </div>
+            <!----game area start---->
+            <div id="game-over-area" class="hidden">
+                <h3 id="game-over-text">Winner is X</h3>
+                <button id="play-again">Play Again</button>
+            </div>
+        </main>
+    </section>
 
 
 
