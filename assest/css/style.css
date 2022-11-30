@@ -73,7 +73,7 @@ header{
 
 body{
 
-    background-image: url(../image/tictactoe.jpg);
+    background-color: rgba(255, 153, 0, 2);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -120,12 +120,12 @@ h2{
     align-items: center;
 }
 .right-border{
-    border-right: 0.5em solid #0000cc;
+    border-right: 0.2em solid #0000cc;
 }
 
 
 .bottom-border{
-    border-bottom: 0.5em solid #0000cc;
+    border-bottom: 0.2em solid #0000cc;
 }
 .strike {
     position: absolute;
