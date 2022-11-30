@@ -79,14 +79,49 @@ body{
     background-size: cover;
     color: #3a3a3a;
 }
-h2{
-    margin-top: 0px;
-    text-align: center;
-    text-transform: uppercase;
-    font-family: 'Finger Paint', cursive;
-    font-size: 55px;
 
+ /*History*/
+ .history{
+	width: 100%;
+	padding: 10% 0px;
+    margin-top: 0%;
+	
 }
+.history img{
+	height: auto;
+	width: 40%;
+    margin-right:5% ;
+    object-fit: cover;
+}
+.history-text{
+	width: 550px;
+}
+.main{
+	
+	max-width: 95%;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+.history-text h2{
+  font-family: 'Finger Paint', cursive;
+  font-size: 300%;
+  font-weight: 500;
+  color: #3a3a3a;
+}
+
+.history-text p{
+	
+	letter-spacing: 1px;
+	line-height: 28px;
+	
+	
+    
+    font-size: 150%;
+    color:#3a3a3a;
+}
+
 .text-rules li{
     font-family: 'Finger Paint', cursive;
     text-align: justify;
@@ -97,6 +132,36 @@ h2{
     font-size: 25px;
     
 
+}
+
+.box{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 400px;
+}
+.card{
+	height: 35%;
+	width: 30%;
+	padding: 20px 35px;
+	background: #0000cc;
+	border-radius: 20px;
+	margin: 15px;
+	position: relative;
+	overflow: hidden;
+	text-align: center;
+}
+
+h5{
+	color: rgba(242, 242, 242);
+	font-size: 23px;
+	margin-bottom: 15px;
+}
+.pra p{
+	color: rgba(242, 242, 242);
+	font-size: 16px;
+	line-height: 27px;
+	margin-bottom: 25px;
 }
 
 #board {
