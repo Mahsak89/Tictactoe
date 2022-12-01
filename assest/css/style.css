@@ -185,7 +185,8 @@ h5{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 130px;
+    padding-top: 10%;
+    padding-bottom: 12%;
 }
 .tile{
     color: #3a3a3a;
@@ -195,17 +196,16 @@ h5{
     align-items: center;
 }
 .right-border{
-    border-right: 0.2em solid #0000cc;
+    border-right: 0.1em solid #403d39;
 }
 
 
 .bottom-border{
-    border-bottom: 0.2em solid #0000cc;
+    border-bottom: 0.1em solid #403d39;
 }
 .strike {
     position: absolute;
-    background-color: #FF6600
-    ;
+    background-color: #c94c4c;
   }
   
   .strike-row-1 {
@@ -257,23 +257,24 @@ h5{
 
   #game-over-area {
     text-align: center;
-    border: #0000cc 8px solid;
+    border: #403d39 8px solid;
     border-radius: 15px;
     padding: 50px;
-    width: 50%;
+    width: 40%;
     margin-top: 70px;
+    background-color: #f5cb5c;
   }
 
   h3 {
-    color: rgba(242, 242, 242);
+    color: #403d39;
     font-size: 2em;
     margin-top: auto;
   }
 
 button {
     background-color: transparent;
-    color: rgba(242, 242, 242);
-    border: rgba(242, 242, 242) 1px solid;
+    color: #403d39;
+    border: #403d39 solid;
     border-radius: 20px;
     padding: 10px;
     font-size: 1.5em;
