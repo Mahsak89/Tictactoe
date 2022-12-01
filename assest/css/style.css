@@ -36,7 +36,7 @@
 
 li, a {
     font-family: 'Finger Paint', cursive;
-    color: #3a3a3a;
+    color: #fff;
     letter-spacing: 4px;
     text-decoration: none;
     font-size:22px ;
@@ -50,8 +50,9 @@ header{
     display: flex;
     justify-content:flex-end;
     align-items: center;
-    padding: 15px 4%;
-    background: linear-gradient(to bottom, #009933 0%, #ccffcc 100%);
+    padding: 30px 4%;
+    background-color: #c94c4c;
+
     
   }
 
@@ -63,7 +64,7 @@ header{
   }
 
   .logo h1{
-    color: #3a3a3a;
+    color: #fff;
     font-family: 'Finger Paint', cursive;
   }
 
@@ -79,17 +80,13 @@ header{
     transition: all 0.3s ease 0s;
   }
   .nav_links li a:hover{
-    color: #0000cc;
+    color: #f5cb5c;
     font-weight: bold;
   
   }
-  .active {
-    border-bottom: 1px solid rgba(177, 203, 187,1) ;
-  }
+  
 
 body{
-
-    background-color: rgba(255, 153, 0, 2);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -98,17 +95,19 @@ body{
 
  /*About-Game*/
 
- .about{
+ #about{
 	width: 100%;
 	padding: 10% 0px;
-    margin-top: 0%;
+  margin-top: 0%;
 	
 }
-.about img{
+
+.main img {
 	height: auto;
-	width: 40%;
-    margin-right:5% ;
-    object-fit: cover;
+	width: 50%;
+  margin-right:10% ;
+  object-fit: cover;
+  margin-left: 3%;
 }
 .about-text{
 	width: 550px;
@@ -120,20 +119,22 @@ body{
 	display: flex;
 	align-items: center;
 	justify-content: space-around;
+  padding-top: 6%;
+  padding-bottom: 5%;
 }
 .about-text h2{
   font-family: 'Finger Paint', cursive;
   font-size: 300%;
   font-weight: 500;
-  color: #3a3a3a;
+  color: rgb(95, 95, 95);
 }
 
 .about-text p{
 	
 	letter-spacing: 1px;
 	line-height: 28px;
-    font-size: 150%;
-    color:#3a3a3a;
+  font-size: 150%;
+  color: rgb(101, 101, 101);
 }
 
 /*box*/
@@ -142,12 +143,15 @@ body{
 	justify-content: center;
 	align-items: center;
 	min-height: 400px;
+  background-color: #edede9;
+  padding-top: 12%;
+  padding-bottom: 12%;
 }
 .card{
 	height: 35%;
 	width: 30%;
 	padding: 20px 35px;
-	background: #0000cc;
+	background-color: #f7d988;
 	border-radius: 20px;
 	margin: 15px;
 	position: relative;
@@ -156,15 +160,16 @@ body{
 }
 
 h5{
-	color: rgba(242, 242, 242);
+	color: rgb(95, 95, 95);
 	font-size: 23px;
 	margin-bottom: 15px;
 }
 .pra p{
-	color: rgba(242, 242, 242);
+	color:rgb(101, 101, 101) ;
 	font-size: 16px;
 	line-height: 27px;
 	margin-bottom: 25px;
+  font-weight: 400;
 }
 /*board*/
 
@@ -293,7 +298,7 @@ footer {
     text-align: center;
     padding-top: 1%;
     padding-bottom: 1%;
-    background: linear-gradient(to bottom, #009933 0%, #ccffcc 100%);
+    background-color: #403d39;
   }
 
   footer i {
