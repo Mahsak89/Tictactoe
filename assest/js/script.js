@@ -16,11 +16,13 @@ const playAgain = document.getElementById("play-again");
 
 const gameOverSound = new Audio ("sounds/game_over.wav.mp3");
 const clickSound = new Audio ("sounds/click.wav.mp3");
+const drawOverSound = new Audio ("sounds/draw_over.wav.mp3");
 
 
 tiles.forEach((tile) => tile.addEventListener("click", tileClick));
 
 function setHoverText() {
+
     //remove all hover text
     tiles.forEach((tile) => {
       tile.classList.remove("x-hover");
@@ -60,46 +62,61 @@ function tileClick(event) {
         turn = PLAYER_X;
       }
 
-      //  clickSound.play();
+      clickSound.play();
       setHoverText();
       checkWinner();
       
 }
 
 function checkWinner() {
-  //check for a winner
+  //Check for a winner
   for (const winningCombination of winningCombinations) {
-  //Object Destructuring
-  const { combo, strikeClass } = winningCombination;
-  const tileValue0 = boardState[combo[0]];
-  const tileValue1 = boardState[combo[1]];
-  const tileValue2 = boardState[combo[2]];
-  }
+    //Object Destructuring
+    const { combo, strikeClass } = winningCombination;
+    const tileValue0 = boardState[combo[0]];
+    const tileValue1 = boardState[combo[1]];
+    const tileValue2 = boardState[combo[2]];
 
-  if (
-    tileValue0 != null &&
-    tileValue0 === tileValue1 &&
-    tileValue0 === tileValue2
-  ) {
-    strike.classList.add(strikeClass);
-    gameOverScreen(tileValue1);
-    return;
+    if (
+      tileValue1 != null &&
+      tileValue1 === tileValue1 &&
+      tileValue1 === tileValue2
+    ) {
+      strike.classList.add(strikeClass);
+      gameOverScreen(tileValue1);
+      return;
+    }
   }
 }
 
-const winningCombinations = [
 
+  //Check for a draw
+  const allTileFilledIn = boardState.every((tile) => tile !== null);
+  if (allTileFilledIn) {
+    gameOverScreen(null);
+ 
+}
+
+function gameOverScreen(winnerText) {
+  let text = "Draw!";
+  if (winnerText != null) {
+    text = `Winner is ${winnerText}!`;
+  }
+  gameOverArea.className = "visible";
+  gameOverText.innerText = text;
+  gameOverSound.play();
+}
+
+const winningCombinations = [
   //rows
   { combo: [0, 1, 2], strikeClass: "strike-row-1" },
   { combo: [3, 4, 5], strikeClass: "strike-row-2" },
   { combo: [6, 7, 8], strikeClass: "strike-row-3" },
-
   //columns
   { combo: [0, 3, 6], strikeClass: "strike-column-1" },
   { combo: [1, 4, 7], strikeClass: "strike-column-2" },
   { combo: [2, 5, 8], strikeClass: "strike-column-3" },
-
   //diagonals
-  {combo: [0, 4, 8], strikeClass:"strike-diagonal-1"},
-  {combo: [2, 4, 6], strikeClass:"strike-diagonal-1"},
+  { combo: [0, 4, 8], strikeClass: "strike-diagonal-1" },
+  { combo: [2, 4, 6], strikeClass: "strike-diagonal-2" },
 ];
