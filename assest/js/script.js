@@ -107,6 +107,15 @@ function gameOverScreen(winnerText) {
   gameOverSound.play();
 }
 
+function startNewGame() {
+  strike.className = "strike";
+  gameOverArea.className = "hidden";
+  boardState.fill(null);
+  tiles.forEach((tile) => (tile.innerText = ""));
+  turn = PLAYER_X;
+  setHoverText();
+}
+
 const winningCombinations = [
   //rows
   { combo: [0, 1, 2], strikeClass: "strike-row-1" },
