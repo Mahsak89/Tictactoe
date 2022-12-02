@@ -77,9 +77,9 @@ function checkWinner() {
   }
 
   if (
-    tileValue1 != null &&
-    tileValue1 === tileValue2 &&
-    tileValue1 === tileValue3
+    tileValue0 != null &&
+    tileValue0 === tileValue1 &&
+    tileValue0 === tileValue2
   ) {
     strike.classList.add(strikeClass);
     gameOverScreen(tileValue1);
