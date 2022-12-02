@@ -18,5 +18,25 @@ const gameOverSound = new Audio ("sounds/game_over.wav.mp3");
 const clickSound = new Audio ("sounds/click.wav.mp3");
 
 
+tiles.forEach((tile) => tile.addEventListener("click", tileClick));
 
+function tileClick(event) {
+    if (gameOverArea.classList.contains("visible")) {
+      return;
+    }
+    const tile = event.target;
+    const tileNumber = tile.dataset.index;
+    if (tile.innerText != "") {
+      return;
+    }
 
+    if (turn === PLAYER_X) {
+        tile.innerText = PLAYER_X;
+        boardState[tileNumber] = PLAYER_X;
+        turn = PLAYER_O;
+      } else {
+        tile.innerText = PLAYER_O;
+        boardState[tileNumber] = PLAYER_O;
+        turn = PLAYER_X;
+      }
+}
