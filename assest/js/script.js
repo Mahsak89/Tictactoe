@@ -67,11 +67,18 @@ function tileClick(event) {
 }
 
 function checkWinner() {
-  
+  //check for a winner
+  for (const winningCombination of winningCombinations) {
+  //Object Destructuring
+  const { combo, strikeClass } = winningCombination;
+  const tileValue0 = boardState[combo[0]];
+  const tileValue1 = boardState[combo[1]];
+  const tileValue2 = boardState[combo[2]];
+  }
 }
 
 const winningCombinations = [
-  
+
   //rows
   { combo: [0, 1, 2], strikeClass: "strike-row-1" },
   { combo: [3, 4, 5], strikeClass: "strike-row-2" },
