@@ -23,21 +23,22 @@ tiles.forEach((tile) => tile.addEventListener("click", tileClick));
 function setHoverText() {
     //remove all hover text
     tiles.forEach((tile) => {
-        tile.classList.remove("x-hover");
-    tile.classList.remove("o-hover");
+      tile.classList.remove("x-hover");
+      tile.classList.remove("o-hover");
     });
-
-    const hoverClass = "tiles.forEach((tile) =>";
-
+  
+    const hoverClass = `${turn.toLowerCase()}-hover`;
+  
     tiles.forEach((tile) => {
-        if (tile.innerText == "") {
-            tile.classList.add(hoverClass);
-        }
+      if (tile.innerText == "") {
+        tile.classList.add(hoverClass);
+      }
     });
+  }
+  
+  setHoverText();
 
-}
 
-setHoverText();
 
 function tileClick(event) {
     if (gameOverArea.classList.contains("visible")) {
