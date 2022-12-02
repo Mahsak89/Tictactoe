@@ -20,6 +20,25 @@ const clickSound = new Audio ("sounds/click.wav.mp3");
 
 tiles.forEach((tile) => tile.addEventListener("click", tileClick));
 
+function setHoverText() {
+    //remove all hover text
+    tiles.forEach((tile) => {
+        tile.classList.remove("x-hover");
+    tile.classList.remove("o-hover");
+    });
+
+    const hoverClass = "tiles.forEach((tile) =>";
+
+    tiles.forEach((tile) => {
+        if (tile.innerText == "") {
+            tile.classList.add(hoverClass);
+        }
+    });
+
+}
+
+setHoverText();
+
 function tileClick(event) {
     if (gameOverArea.classList.contains("visible")) {
       return;
@@ -41,4 +60,5 @@ function tileClick(event) {
       }
 
       clickSound.play()
+      
 }
