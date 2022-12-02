@@ -11,4 +11,12 @@ const strike = document.getElementById("strike");
 const gameOverArea = document.getElementById("game-over-area");
 const gameOverText = document.getElementById("game-over-text");
 const playAgain = document.getElementById("play-again");
-playAgain.addEventListener("click", startNewGame);
+
+//sounds
+
+const gameOverSound = new Audio ("sounds/game_over.wav.mp3");
+const clickSound = new Audio ("sounds/click.wav.mp3");
+
+
+
+
