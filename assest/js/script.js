@@ -39,4 +39,6 @@ function tileClick(event) {
         boardState[tileNumber] = PLAYER_O;
         turn = PLAYER_X;
       }
+
+      clickSound.play()
 }
