@@ -11,6 +11,7 @@ const strike = document.getElementById("strike");
 const gameOverArea = document.getElementById("game-over-area");
 const gameOverText = document.getElementById("game-over-text");
 const playAgain = document.getElementById("play-again");
+playAgain.addEventListener("click", startNewGame)
 
 //sounds
 
@@ -73,14 +74,14 @@ function checkWinner() {
   for (const winningCombination of winningCombinations) {
     //Object Destructuring
     const { combo, strikeClass } = winningCombination;
-    const tileValue0 = boardState[combo[0]];
-    const tileValue1 = boardState[combo[1]];
-    const tileValue2 = boardState[combo[2]];
+    const tileValue1 = boardState[combo[0]];
+    const tileValue2 = boardState[combo[1]];
+    const tileValue3 = boardState[combo[2]];
 
     if (
       tileValue1 != null &&
-      tileValue1 === tileValue1 &&
-      tileValue1 === tileValue2
+      tileValue1 === tileValue2 &&
+      tileValue1 === tileValue3
     ) {
       strike.classList.add(strikeClass);
       gameOverScreen(tileValue1);
@@ -95,7 +96,8 @@ function checkWinner() {
   if (allTileFilledIn) {
     gameOverScreen(null);
  
-}
+  }
+
 
 function gameOverScreen(winnerText) {
   let text = "Draw!";
