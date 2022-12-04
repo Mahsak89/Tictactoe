@@ -47,36 +47,33 @@ li, a {
   
 
 header{
-    display: flex;
-    justify-content:flex-end;
-    align-items: center;
-    padding: 30px 4%;
-    background-color: #c94c4c;
-
-    
-  }
+  display: flex;
+  justify-content:flex-end;
+  align-items: center;
+  padding: 30px 4%;
+  background-color: #c94c4c;
+}
 
 
 .logo{
-    cursor: pointer;
-    margin-right: auto;
-    
-  }
+  cursor: pointer;
+  margin-right: auto;
+  
+}
 
-  .logo h1{
-    color: #fff;
-    font-family: 'Finger Paint', cursive;
-  }
+.logo h1{
+  color: #fff;
+  font-family: 'Finger Paint', cursive;
+}
 
   
-  .nav_links{
-    list-style: none;
+.nav_links{
+  list-style: none;
     
-  }
+}
   .nav_links li{
     display: inline-block;
     padding: 0px 20px;
-    
   }
   .nav_links li a{
     transition: all 0.3s ease 0s;
@@ -84,15 +81,14 @@ header{
   .nav_links li a:hover{
     color: #f5cb5c;
     font-weight: bold;
-  
   }
   
 
 body{
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    color: #3a3a3a;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #3a3a3a;
 }
 
  /*About-Game*/
@@ -183,201 +179,203 @@ h5{
 /*board*/
 
 #board {
-    display: grid;
-    grid-template-columns: 100px 100px 100px;
-    grid-template-rows: 100px 100px 100px;
-    cursor: pointer;
-    position: relative;
-    
+  display: grid;
+  grid-template-columns: 100px 100px 100px;
+  grid-template-rows: 100px 100px 100px;
+  cursor: pointer;
+  position: relative;
 }
 .position {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-top: 10%;
-    padding-bottom: 12%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 10%;
+  padding-bottom: 12%;
 }
 .tile{
-    color: #3a3a3a;
-    font-size: 2em;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  color: #3a3a3a;
+  font-size: 2em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .right-border{
-    border-right: 0.1em solid #403d39;
+  border-right: 0.1em solid #403d39;
 }
 
 
 .bottom-border{
-    border-bottom: 0.1em solid #403d39;
+  border-bottom: 0.1em solid #403d39;
 }
 .strike {
-    position: absolute;
-    background-color: #c94c4c;
-  }
+  position: absolute;
+  background-color: #c94c4c;
+}
   
-  .strike-row-1 {
-    width: 100%;
-    height: 4px;
-    top: 15%;
-  }
-  .strike-row-2 {
-    width: 100%;
-    height: 4px;
-    top: 48%;
-  }
-  .strike-row-3 {
-    width: 100%;
-    height: 4px;
-    top: 83%;
-  }
-  .strike-column-1 {
-    height: 100%;
-    width: 4px;
-    left: 15%;
-  }
-  .strike-column-2 {
-    height: 100%;
-    width: 4px;
-    left: 48%;
-  }
-  .strike-column-3 {
-    height: 100%;
-    width: 4px;
-    left: 83%;
-  }
-  .strike-diagonal-1 {
-    width: 90%;
-    height: 4px;
-    top: 50%;
-    left: 5%;
-    transform: skewY(45deg);
-  }
-  .strike-diagonal-2 {
-    width: 90%;
-    height: 4px;
-    top: 50%;
-    left: 5%;
-    transform: skewY(-45deg);
-  }
+.strike-row-1 {
+  width: 100%;
+  height: 4px;
+  top: 15%;
+}
+.strike-row-2 {
+  width: 100%;
+  height: 4px;
+  top: 48%;
+}
+.strike-row-3 {
+  width: 100%;
+  height: 4px;
+  top: 83%;
+}
+.strike-column-1 {
+  height: 100%;
+  width: 4px;
+  left: 15%;
+}
+.strike-column-2 {
+  height: 100%;
+  width: 4px;
+  left: 48%;
+}
+.strike-column-3 {
+  height: 100%;
+  width: 4px;
+  left: 83%;
+}
+.strike-diagonal-1 {
+  width: 90%;
+  height: 4px;
+  top: 50%;
+  left: 5%;
+  transform: skewY(45deg);
+}
+.strike-diagonal-2 {
+  width: 90%;
+  height: 4px;
+  top: 50%;
+  left: 5%;
+  transform: skewY(-45deg);
+}
 
   /*game area*/
 
-  #game-over-area {
-    text-align: center;
-    border: #403d39 8px solid;
-    border-radius: 15px;
-    padding: 50px;
-    width: 40%;
-    margin-top: 70px;
-    background-color: #f5cb5c;
-  }
+#game-over-area {
+  text-align: center;
+  border: #403d39 8px solid;
+  border-radius: 15px;
+  padding: 50px;
+  width: 40%;
+  margin-top: 70px;
+  background-color: #f5cb5c;
+}
 
-  h3 {
-    color: #403d39;
-    font-size: 2em;
-    margin-top: auto;
-  }
+h3 {
+  color: #403d39;
+  font-size: 2em;
+  margin-top: auto;
+}
 
 button {
-    background-color: transparent;
-    color: #403d39;
-    border: #403d39 solid;
-    border-radius: 20px;
-    padding: 10px;
-    font-size: 1.5em;
-    margin-top: 30px;
-  }
-  .hidden {
-    display: none;
-  }
+  background-color: transparent;
+  color: #403d39;
+  border: #403d39 solid;
+  border-radius: 20px;
+  padding: 10px;
+  font-size: 1.5em;
+  margin-top: 30px;
+}
+.hidden {
+  display: none;
+}
   
-  .visible {
-    display: block;
-  }
+.visible {
+  display: block;
+}
 .x-hover:hover::after{
-    content: "X";
-    opacity: 0.4;
+  content: "X";
+  opacity: 0.4;
 }
 .o-hover:hover::after{
-    content: "O";
-    opacity: 0.4;
+  content: "O";
+  opacity: 0.4;
 }
 footer {
-    text-align: center;
-    padding-top: 1%;
-    padding-bottom: 1%;
-    background-color: #403d39;
+  text-align: center;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  background-color: #403d39;
+}
+
+footer i {
+  color:#deeaee;
+}
+
+/* Media queries*/
+@media screen and (max-width:1200px) {
+
+
+}
+
+
+@media screen and (max-width:500px) {
+  header {
+    flex-direction: column;
   }
 
-  footer i {
-   color:#deeaee;
+  .nav_links li {
+    display: block;
+    padding: 5px 20px;
   }
 
-   /* Media queries*/
+  .logo {
+    margin: auto;
+  }
 
-   @media (max-width: 800px) {
-    header {
-      flex-direction: column;
-    }
-    .box{
-        flex-direction: column;
-    }
-    .card{
-       
-        width:80%;
-       
-    }
+  .about img {
+    height: auto;
+    width:100%;
+    margin:auto;
+    object-fit: cover;
+  }
 
+  .main {
+    flex-direction: column;
+    width: 100%;
+  }
+  .about-text h2 {
+    margin-left: 25%;
+    font-size: 170%;
+  }
+  
+  .about-text p {
+    margin-left: 25%;
+    margin-right: 25%;
+    max-width: 80%;
+    font-size: 100%;
+    object-fit: cover;
+  }
+  .box {
+    flex-direction: column;
+   
+  }
+  .card {
+    flex-direction: column;
+    font-size: 100%;
+    object-fit: cover;
+    width: 100%;
+  }
+  #game-over-area {
+    flex-direction: column;
+    font-size: 100%;
+    object-fit: cover;
+    width: 100%;
+  }
 
-
-
-
-    }
-    @media (max-width: 500px) {
-      header {
-        flex-direction: column;
-      }
-
-      .nav_links li{
-          display: block;
-          padding: 5px 20px;
-         
-        }
-        .logo{
-          
-          margin: auto;
-          
-        }
-        .about img{
-          height: auto;
-          width:100%;
-          margin:auto;
-          object-fit: cover;
-      }
-      .main{
-        
-          flex-direction: column;
-          width: 100%;
-        
-      }
-      .about-text h2{
-         margin-left: 25%;
-         font-size: 170%;
-      }
-      
-      .about-text p{
-          
-          margin-left: 25%;
-          margin-right: 25%;
-          max-width: 80%;
-          font-size: 100%;
-          object-fit: cover;
-      }
-      button{
-          margin-left: 25%;
-
-      }
-
+  .position {
+    flex-direction: column;
+    align-items: center;
+    max-width: 100%;
+ 
+  }
+  
 }
