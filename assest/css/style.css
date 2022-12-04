@@ -321,9 +321,13 @@ footer i {
   header {
     flex-direction: column;
   }
+  nav {
+    flex-direction: row;
+    
+  }
 
   .nav_links li {
-    display: block;
+    display: inline-block;
     padding: 5px 20px;
   }
 
@@ -368,7 +372,8 @@ footer i {
     flex-direction: column;
     font-size: 100%;
     object-fit: cover;
-    width: 100%;
+    width: 80%;
+    padding: 30px;
   }
 
   .position {
