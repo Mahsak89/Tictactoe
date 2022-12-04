@@ -74,9 +74,9 @@ function checkWinner() {
   for (const winningCombination of winningCombinations) {
     //Object Destructuring
     const { combo, strikeClass } = winningCombination;
-    const tileValue1 = boardState[combo[0]];
-    const tileValue2 = boardState[combo[1]];
-    const tileValue3 = boardState[combo[2]];
+    const tileValue1 = boardState[combo[0]-1];
+    const tileValue2 = boardState[combo[1]-1];
+    const tileValue3 = boardState[combo[2]-1];
 
     if (
       tileValue1 != null &&
