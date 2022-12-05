@@ -316,6 +316,9 @@ footer i {
 .dropdown {
   display: none;
 }
+.logo h1 {
+  margin-right: 455px;
+}
 
 }
 
