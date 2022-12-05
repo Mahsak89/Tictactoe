@@ -18,10 +18,11 @@ A simple and fun game for 2 players.
 
     - **Home pages**
 
-     -expaine about the game in the first section and down we have the another section with 3 colorful boxes which giv us more information,
+     -expaine about the game in the first section and down we have the another section with 3 colorful boxes which giv us more information.
+
     - **let's play page**
 
-     - On this page, there is also a a game box with tails wich added click sound on each tails. there is also a game winner text box who sho up after you are done with the game and show us, if we have a winner or if it is a draw.
+      -On this page, there is also a a game box with tails wich added click sound on each tails. there is also a game winner text box who sho up after you are done with the game and show us, if we have a winner or if it is a draw.
      
 
     
