@@ -109,6 +109,28 @@ Tic-tac-toe is a game for two players, X and O, who take turns marking the space
    
   - soundsnap is used for downloding sound in the game/js file.
 
+  ## Testing
+
+**general testing:**
+
+The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
+
+- [W3C Markup Validator](https://validator.w3.org/) : [Result](assest/validators/html_validator.png)
+
+- [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) : [Result](assest/validators/css_validators.png)
+
+- [Grammarly](https://app.grammarly.com/) used to fix any misspells.
+
+- [JSLint](https://jslint.com/) used to check the script codes. 
+
+- Further, the testing of the project has been carried out from the beginning using google developer tools.
+
+- User stories from the UX section that didn't need usage of javascript were tested to ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
+
+- Navbar pages are linked correctly to the right page.
+
+- Social links are linked to the right page and open a new tab when clicked on.
+
 
   ## **Deployment**
 
