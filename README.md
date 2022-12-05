@@ -42,7 +42,7 @@ A simple and fun game for 2 players.
 
 - The board is easy to use and by hovering on tails you can see who is turn is it. You will hear a click sound when you play your turn as well.
 
-- On the play page when you are done with your moves, the winner box will come up and tell you who is the winner or if it is a raw.
+- On the play page when you are done with your moves, the gameover box will come up and tell you who is the winner or if it is a raw.
 
 - Players can easily find social media apps for the game in the footer of each page.
 
@@ -52,7 +52,57 @@ A simple and fun game for 2 players.
 
 - Make a  real social media page for the game.
 
-- Make a switch function for click and hold the button in mobile phones instead of clicking the boxes one by one.
+- Make a switch function for click and hold the button in mobile phones instead of clicking the game over area one by one.
+
+## Technologies Used
+
+### **Languages Used**
+
+- [HTML5](https://en.wikipedia.org/wiki/HTML5)
+
+- [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
+
+- [JavaScreept](https://en.wikipedia.org/wiki/JavaScript)
+
+### **Frameworks & Programs Used**
+
+- [Google fonts](https://fonts.google.com/)
+
+  - Google fonts Roboto and Baloo Bhaina are used on all pages throughout the project.
+
+- [Font Awesome](https://fontawesome.com/v4.7.0/icons/)
+
+  - Fontawesome icons are used on all pages throughout the website to add icons for aesthetic and UX purposes.
+
+- [Hover.css](https://ianlunn.github.io/Hover/)
+
+  - Hover.css is used on the Social Media icons in the footer to add the float transition while being hovered over.
+
+  - The hover effect hvr-sweep-to-bottom has been used in menu buttons.
+
+  - Hover.css is used on header on home page and let's play page.
+
+  - Hover.css is used on all tails for X and O .
+
+- [Git](https://en.wikipedia.org/wiki/Git)
+
+  - Git is used for version control by utilizing the Gitpod terminal to commit to Git and push to GitHub.
+
+- [github](https://github.com/)
+
+  - GitHub is used to store the project's code after being pushed from Git.
+
+- [gitpod](https://www.gitpod.io/)
+
+  - Gitpod is used for testing the project.
+
+- [coolors](https://coolors.co/)
+
+- [soundsnap](https://www.soundsnap.com/)
+
+
+
+
      
 
     
