@@ -10,6 +10,19 @@ A simple and fun game for 2 players.
 
 Tic-tac-toe is a game for two players, X and O, who take turns marking the spaces in a 3×3 grid. The player who succeeds in placing three of their marks in a horizontal, vertical, or diagonal row wins the game.
 
+## Acknowledgements
+
+1. A special thanks to my mentor, Agshat Garg, for his valuable feedback during mentoring sessions.
+
+1. Also, I like to thank all of the Code Institute support groups.
+
+1. The design and layout of this website are based on the Rule of Thirds.
+
+1. All the images on the website have an external source and have been used for only educational purposes.
+
+1. Code Institute tutorials were very helpful throughout the whole project.
+
+
 - ### **Structure**
 
   - #### First and third section(header and footer):
