@@ -22,6 +22,26 @@ Tic-tac-toe is a game for two players, X and O, who take turns marking the space
 
 1. Code Institute tutorials were very helpful throughout the whole project.
 
+  - #### Colour Scheme
+
+    - The 6 main colors used are:
+    
+    - #c94c4c for the heder background and stricks on boardgame which is close to the redpink.
+
+    - #f5cb5c for game overe area , boxes in home page and hovers which is close to the yello.
+
+    - #edede9 for box section in home page which is a light gray-blue.
+
+    - #fff for the body page which is white.
+
+    - #403d39 for the most of the fonts which is kind of gray.
+
+    - and #403d39 which is a dark gray and used for the color of tail board and footers.
+    
+- #### Typography
+
+  - Lato and Oswald font are the main fonts used throughout the whole website with Finger Paint and cursive as the fallback font in a case for any reason the font isn't being imported into the site correctly.
+
 
 - ### **Structure**
 
