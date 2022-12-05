@@ -12,7 +12,7 @@ A simple and fun game for 2 players.
 
     - The website consist of 2 pages named: Home and Let's Play. Each page has three sections.
 
-    - The content of the header and footer sections are the same in both the pages. The Header section consists of the navbar menu for navigation through the website and the footer section consists of the Contact button, More games, and social media links.
+ - The content of the header and footer sections are the same in both the pages. The Header section consists of the navbar menu for navigation through the website and the footer section consists of the Contact button, More games, and social media links.
 
   - #### Second section:
 
@@ -24,8 +24,9 @@ A simple and fun game for 2 players.
 
       -On this page, there is also a a game box with tails wich added click sound on each tails. there is also a game winner text box who sho up after you are done with the game and show us, if we have a winner or if it is a draw.
 
-      ## **Features**
- 
+
+
+## **Features**
 ### Existing Features
 
 - Easy to use.
@@ -97,8 +98,32 @@ A simple and fun game for 2 players.
   - Gitpod is used for testing the project.
 
 - [coolors](https://coolors.co/)
+ 
+  - coolors is used for colors in css file.
 
 - [soundsnap](https://www.soundsnap.com/)
+   
+  - soundsnap is used for downloding sound in the game/js file.
+
+
+  ## **Deployment**
+
+Following steps has been taken to deploy Happy Moms website on GitHub pages;
+
+1. Go to GitHub and click on repository [Mahsak89/Tictactoe](https://github.com/Mahsak89/Tictactoe)
+
+1. Click on **Settings** on the top right of the page
+
+1. on left side click **GitHub pages section**
+
+1. Click on **dropdown menu** under **Source** section and select **Master Branch as Source**
+
+1. The page will automatically refresh.
+
+1. Scroll back down through the page to locate the now published site link in the "GitHub Pages" section.
+
+
+
 
 
 
