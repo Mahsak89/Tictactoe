@@ -321,6 +321,11 @@ footer i {
   header {
     flex-direction: column;
   }
+  .logo h1 {
+    font-size: 15px;
+    font-weight: bolder;
+    
+  }
   nav {
     flex-direction: row;
     
