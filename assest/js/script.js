@@ -72,7 +72,7 @@ function setHoverText() {
   function checkWinner() {
     //Check for a winner
     for (const winningCombination of winningCombinations) {
-      //Object Destructuring
+    //Object Destructuring
       const { combo, strikeClass } = winningCombination;
       const tileValue1 = boardState[combo[0] - 1];
       const tileValue2 = boardState[combo[1] - 1];
