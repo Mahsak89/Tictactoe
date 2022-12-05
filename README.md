@@ -125,7 +125,11 @@ Following steps has been taken to deploy Happy Moms website on GitHub pages;
 1. The page will automatically refresh.
 
 1. Scroll back down through the page to locate the now published site link in the "GitHub Pages" section.
+## 🚀 About Me
+I'm  full stack developer student.
 
+## Authors
+- [@Mahsak89](https://github.com/Mahsak89)
 
 
 
