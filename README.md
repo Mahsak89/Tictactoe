@@ -19,6 +19,7 @@ Tic-tac-toe is a game for two players, X and O, who take turns marking the space
 1. The design and layout of this website are based on the Rule of Thirds.
 
 1. All the images on the website have an external source and have been used for only educational purposes.
+1. Youtube : A game of TicTacToe written in JavaScript by "Bro Code"
 
 1. Code Institute tutorials were very helpful throughout the whole project.
 
