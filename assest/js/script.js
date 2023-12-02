@@ -15,8 +15,8 @@ playAgain.addEventListener("click", startNewGame);
 
 //sounds
 
-const gameOverSound = new Audio ("../sounds/game_over.wav");
-const clickSound = new Audio ("../sounds/click.wav.mp3");
+const gameOverSound = new Audio ("./sounds/game_over.wav");
+const clickSound = new Audio ("./sounds/click.wav.mp3");
 
 
 
