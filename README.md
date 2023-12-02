@@ -165,6 +165,10 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 - Social links are linked to the right page and open a new tab when clicked on.
 
+- I fixed the sound error in the live project. 
+
+![Fixed Error](assest/image/fixedsounderror.png)
+
 
   ## **Deployment**
 
